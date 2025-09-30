@@ -1,6 +1,14 @@
-{
-  "employee": {
-    "field1": "field1",
-    "field2": "field2"
+[
+  {
+    "ID": "hello_world",
+    "Description": "A simple greeting",
+    "One": "Hello, world!",
+    "Other": "Hello, worlds!"
+  },
+  {
+    "ID": "item_count",
+    "Description": "Number of items",
+    "One": "{.Count, plural, one {You have one item} other {You have # items}}",
+    "Other": "{.Count, plural, one {You have one item} other {You have # items}}"
   }
-}
+]
