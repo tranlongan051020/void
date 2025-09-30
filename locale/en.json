@@ -1,14 +1,16 @@
-[
-  {
-    "ID": "hello_world",
-    "Description": "A simple greeting",
-    "One": "Hello, world!",
-    "Other": "Hello, worlds!"
+{
+  "hello": "Ahoj světe!\n",
+  "orangutan": {
+    "description": "Description",
+    "one": "Orangutan has {{.Count}} banana.\n",
+    "other": "Orangutan has {{.Count}} bananas.\n"
   },
-  {
-    "ID": "item_count",
-    "Description": "Number of items",
-    "One": "{.Count, plural, one {You have one item} other {You have # items}}",
-    "Other": "{.Count, plural, one {You have one item} other {You have # items}}"
+  "try": {
+    "description": "Description",
+    "other": ""
+  },
+  "thanks": {
+    "description": "Description",
+    "other": ""
   }
-]
+}
